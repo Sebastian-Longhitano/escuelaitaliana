@@ -32,7 +32,7 @@ describe("POST /administrativo/alumno", () => {
             .expect(201);
     });
 
-    it("Debe almacenar retornar 400 porque el alumno ya existe", async () => {
+    it("Debe retornar 409 porque el alumno ya existe", async () => {
         const response = await request(app)
             .post("/administrativo/alumno")
             .set("Cookie", cookie)
