@@ -15,3 +15,13 @@ En la consola ejecutar: npm run dev
 En la consola ejecutar: npm test
 
 **IMPORTANTE**: Para que las pruebas se ejecuten correctamente la base de MongoDB debe tener datos pre-cargados. Ejecutar la aplicación en ambiente de desarrollo para que se cargen los esquemas, luego ejecutar las pruebas.
+
+**USUARIOS y CLAVES**
+
+Para todos los usuarios la contraseña es: 123
+
+Usuario Alumno: biondania
+Usuario Alumno: longhitanos
+Usuario Alumno: lopezl
+Usuario Profesor: sassiv
+Usuario Administrativo: sparoj
